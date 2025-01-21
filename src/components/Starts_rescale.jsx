@@ -9,7 +9,7 @@ import { useFrame } from '@react-three/fiber';
 
 export function Starts_rescale(props) {
   const group = React.useRef()
-  const { nodes, materials, animations } = useGLTF('portafolio/public/models/starts_rescale.glb')
+  const { nodes, materials, animations } = useGLTF('/portafolio/public/models/starts_rescale.glb')
   const { actions } = useAnimations(animations, group)
 
   // Animación de rotación
@@ -50,4 +50,4 @@ export function Starts_rescale(props) {
   )
 }
 
-useGLTF.preload('portafolio/public/models/starts_rescale.glb')
+useGLTF.preload('/portafolio/public/models/starts_rescale.glb')

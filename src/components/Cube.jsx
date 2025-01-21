@@ -8,9 +8,9 @@ import { useRef, useState } from 'react';
 import { Float, useGLTF, useTexture } from '@react-three/drei';
 
 const Cube = ({ ...props }) => {
-  const { nodes } = useGLTF('portafolio/public/models/cube.glb');
+  const { nodes } = useGLTF('/portafolio/public/models/cube.glb');
 
-  const texture = useTexture('portafolio/public/textures/cube.png');
+  const texture = useTexture('/portafolio/public/textures/cube.png');
 
   const cubeRef = useRef();
   const [hovered, setHovered] = useState(false);
@@ -48,6 +48,6 @@ const Cube = ({ ...props }) => {
   );
 };
 
-useGLTF.preload('models/cube.glb');
+useGLTF.preload('/portafolio/public/models/cube.glb');
 
 export default Cube;
