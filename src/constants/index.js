@@ -95,14 +95,14 @@ export const myProjects = [
     subdesc:
       'Incluye una experiencia inmersiva con modelos 3D y animaciones aplicando tecnologías avanzadas en el desarrollo web. El diseño es completamente responsivo y gratuito, dando una visualización óptima en dispositivos',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/portafolio/public/textures/project/project2.mp4',
-    logo: '/portafolio/public/assets/SA.png',
+    texture: `${import.meta.env.BASE_URL}textures/project/project2.mp4`,
+    logo: `${import.meta.env.BASE_URL}assets/SA.png`,
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/portafolio/public/assets/spotlight2.png',
+    spotlight: `${import.meta.env.BASE_URL}assets/spotlight2.png`,
     tags: [
       {
         id: 1,
