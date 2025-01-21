@@ -1,0 +1,1 @@
+Usar para generacion de componente react de modelo 3d en formato.glb a mesh que es la malla del objeto igual mente carga sus animaciones: npx gltfjsx@6.5.0 hacker_room_with_car.glb
