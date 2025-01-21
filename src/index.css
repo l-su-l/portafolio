@@ -74,7 +74,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full border border-black-300 bg-black-200 rounded-lg sm:p-2 p-4 flex flex-col gap-5;
   }
 
   .grid-headtext {
@@ -88,6 +88,36 @@ body {
   .copy-container {
     @apply cursor-pointer flex justify-center items-center gap-2;
   }
+
+  .grid-container img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    max-width: 150px; /* Tamaño máximo para pantallas más grandes */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    object-fit: contain; /* Asegura que la imagen no se deforme */
+    margin: 0 auto; /* Centra la imagen si es más pequeña que el contenedor */
+    background-color: #28282e;
+    border-radius: 20px;
+    border: 1px solid #d6d6d6;
+    padding: 1px;
+  }
+  
+  @media (min-width: 640px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Dos columnas: imagen y texto */
+      gap: 1rem; /* Espaciado entre columnas */
+    }
+  
+    .grid-container img {
+      max-width: 300px; /* Tamaño controlado en pantallas grandes */
+      height: auto; /* Mantiene la proporción */
+      background-color: #28282e;
+      border-radius: 20px;
+      border: 1px solid #d6d6d6;
+      padding: 1px;
+    }
+  }
+  
 
   /* projects section  */
   .arrow-btn {

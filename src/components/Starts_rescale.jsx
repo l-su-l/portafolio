@@ -26,12 +26,12 @@ export function Starts_rescale(props) {
           <group name="c0d234900f694cb2b1f4f457c9f91791fbx" rotation={[Math.PI, 0, 0]}>
             <group name="Object_2">
               <group name="RootNode">
-                <group name="StarCluster1" scale={24.803}>
+                <group name="StarCluster1" scale={14.803}>
                   <group name="Object_11" position={[-1.993, 0, 0]}>
                     <mesh name="StarCluster1_01_-__0" geometry={nodes['StarCluster1_01_-__0'].geometry} material={materials['01_-']} position={[-24.617, -2.848, -927.721]} scale={[15.493, 3.025, 5.415]} />
                   </group>
                 </group>
-                <group name="StarCluster2" scale={49.606}>
+                <group name="StarCluster2" scale={19.606}>
                   <group name="Object_8" position={[-1.549, 0, 0]}>
                     <mesh name="StarCluster2_02_-__0" geometry={nodes['StarCluster2_02_-__0'].geometry} material={materials['02_-']} position={[-17.316, -10.275, -461.479]} scale={[16.681, 12.069, 5.415]} />
                   </group>

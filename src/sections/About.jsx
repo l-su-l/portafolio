@@ -19,24 +19,26 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-2 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src={`${import.meta.env.BASE_URL}assets/grid1.png`} alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
-
+            <img
+              src={`${import.meta.env.BASE_URL}assets/grid1.png`}
+              alt="grid-1"
+              className="grid-image"
+            />
             <div>
               <p className="grid-headtext">Buenas Ak Sebastian</p>
               <p className="grid-subtext">
-                Simple desarrollador apasionado por crear aplicaciones web
-                completas, combinando tecnologías frontend y
-                backend para ofrecer soluciones dinámicas y funcionales.
+                Simple desarrollador apasionado por crear aplicaciones web completas, combinando tecnologías frontend y backend para ofrecer soluciones dinámicas y funcionales.
               </p>
             </div>
           </div>
+
         </div>
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <Habilidades />
 
-            <div>
+            <div className=''>
               <p className="grid-headtext">Habilidades</p>
               <p className="grid-subtext">
                 Cuento
@@ -48,9 +50,9 @@ const About = () => {
         </div>
 
         <section id="Contacto" className="xl:col-span-1 xl:row-span-2 h-[104%]">
-          <div className="w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-2 flex flex-col gap-5 items-start">
+          <div className="w-full h- border border-black-300 bg-black-200 rounded-lg sm:p-1 flex flex-col gap-5 items-start">
 
-            <div className=' bg-zinc-800 rounded px-1 py-1'>
+            <div className=' bg-zinc-800 rounded px-1 py-1 w-full h-full'>
               <div className="space-y-2">
                 <p className="grid-subtext text-center">Contactame</p>
               </div>

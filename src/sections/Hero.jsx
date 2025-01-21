@@ -24,18 +24,27 @@ const Hero = () => {
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
-  return (
-    <section className="h-[50%] w-[100%] flex flex-col absolute  border-red- z-10" id="home">
+  // Define dynamic styles for section
+  const sectionStyle = {
+    height: isSmall ? "70vh" : isMobile ? "60vh" : "50vh",
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    position: "absolute",
+    zIndex: 10,
+  };
 
-      <div className="w-full h-full absolute inset-0">
-        <Canvas className="w-full h-full">
+  return (
+    <section style={sectionStyle} id="home">
+      <div className="w-full h-[455px] absolute inset-0">
+        <Canvas className=" w-full h-full ">
           <Suspense fallback={<CanvasLoader />}>
             {/* To hide controller */}
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
             <HeroCamera isMobile={isMobile}>
-              <Starts_rescale position={[0, -38, 0]} scale={[2, 2, 2]} />
+              <Starts_rescale position={[0, isMobile ? -30 : -38, 0]} scale={[2, 2, 2]} />
             </HeroCamera>
 
             <group>
@@ -51,9 +60,9 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </div>
-
     </section>
   );
 };
 
 export default Hero;
+

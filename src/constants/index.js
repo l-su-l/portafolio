@@ -91,9 +91,9 @@ export const myProjects = [
   },
   {
     title: '•» ᴘᴏʀᴛᴀꜰᴏʟɪᴏ | ꜱᴇʙᴀꜱᴛɪᴀɴ ᴀᴄᴜɴᴀ ᴅᴇꜱᴀʀʀᴏʟʟᴀᴅᴏʀ ꜰᴜʟʟ ꜱᴛᴀᴄᴋ | ʙᴀᴄᴋᴇɴᴅ ᴘʏᴛʜᴏɴ | ʀᴇᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ «•',
-    desc: 'Proyecto desarrollado con React.js, es un portafolio interactivo diseñado para mostrar experiencia, habilidades y proyectos especificos.',
+    desc: 'Proyecto desarrollado con React.js Threejs, portafolio interactivo diseñado para mostrar experiencia, habilidades y proyectos especificos.',
     subdesc:
-      'Incluye una experiencia inmersiva con modelos 3D y animaciones aplicando tecnologías avanzadas en el desarrollo web. El diseño es completamente responsivo y gratuito, dando una visualización óptima en dispositivos',
+      'Se busca sensación inmersiva con Escena, modelos 3D y animaciones aplicando tecnologías en el desarrollo web. El diseño es completamente responsivo y publico de, dando una visualización óptima en dispositivos',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
     texture: `${import.meta.env.BASE_URL}textures/project/project2.mp4`,
     logo: `${import.meta.env.BASE_URL}assets/SA.png`,
