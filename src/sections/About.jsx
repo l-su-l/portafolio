@@ -19,7 +19,7 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-2 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="/portafolio//public/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="portafolio/public/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Buenas Ak Sebastian</p>
@@ -57,21 +57,21 @@ const About = () => {
 
               <div className="space-y-2 px-1">
                 <div className="flex gap-1" onClick={handleCopy}>
-                  <img src={hasCopied ? '/portafolio//public/assets/tick.svg' : 'assets/copy.svg'} alt="copy" className='cursor-pointer z-50'/>
+                  <img src={hasCopied ? 'portafolio/public/assets/tick.svg' : 'portafolio/public/assets/copy.svg'} alt="copy" className='cursor-pointer z-50'/>
                   <p className="lg:text-lg md:text-lg font-medium text-gray_gradient text-white">sebastian.acuna.oy23@gmail.com</p>
                 </div>
               </div>
 
               <div className="space-y-2">
                 <div className="flex items-center gap-3 pl-2">
-                  <img src={'/portafolio//public/assets/iconochile.png'} alt="iconchile" className='w-[32px] h-[20px] rounded' />
+                  <img src={'portafolio/public/assets/iconochile.png'} alt="iconchile" className='w-[32px] h-[20px] rounded' />
                   <p className="lg:text-lg md:text-lg font-medium text-gray_gradient text-white">Chileno</p>
                 </div>
               </div>
 
               <div className="space-y-2">
                 <div className="flex gap-3 pl-2 pt-1">
-                  <img src={'/portafolio//public/assets/globo-terraqueo.png'} alt="iconchile" className='h-[5%] rounded' />
+                  <img src={'portafolio/public/assets/globo-terraqueo.png'} alt="iconchile" className='h-[5%] rounded' />
                   <p className="lg:text-lg md:text-xl font-medium text-gray_gradient text-white">Estación Central | Región Metropolitana de Santiago</p>
                 </div>
               </div>
