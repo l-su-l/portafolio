@@ -27,7 +27,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Buenas Ak Sebastian</p>
               <p className="grid-subtext">
-                Simple desarrollador apasionado por crear aplicaciones web completas, combinando tecnologías frontend y backend para ofrecer soluciones dinámicas y funcionales.
+                Simple desarrollador que busca crear aplicaciones web en distintos lenguajes de programacion, mezclando frameworks de frontend y backend para dar soluciones dinámicas y funcionales.
               </p>
             </div>
           </div>
