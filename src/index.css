@@ -121,11 +121,15 @@ body {
 
   /* projects section  */
   .arrow-btn {
-    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
+    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full bg-zinc-700 border;
   }
 
   .tech-logo {
-    @apply w-[90px] h-[60px] rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+    @apply w-[80px] h-[50px] rounded-md p-1 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+  }
+
+  .tech-logo img {
+    width: 50%;
   }
 
   /* clients section */

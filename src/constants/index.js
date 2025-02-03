@@ -117,7 +117,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'Django',
-        path: `${import.meta.env.BASE_URL}assets/logodjango.png`,
+        path: `${import.meta.env.BASE_URL}assets/logoblender.png`,
       },
       {
         id: 4,

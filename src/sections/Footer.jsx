@@ -11,8 +11,8 @@ const Footer = () => {
         <div className="social-icon">
           <img src={`${import.meta.env.BASE_URL}assets/github.svg`} alt="github" className="w-1/2 h-1/2" />
         </div>
-        <div className="w-[5%] rounded-full flex items-center justify-center bg-black-300">
-          <img src={`${import.meta.env.BASE_URL}assets/download.svg`} alt="gmail" className="w-[85%]" />
+        <div className="w-[10%] rounded-full flex items-center justify-center bg-black-300">
+          <img src={`${import.meta.env.BASE_URL}assets/download.svg`} alt="gmail" className="w-[65%]" />
         </div>
         <div className="social-icon">
           <img src={`${import.meta.env.BASE_URL}assets/instagram.svg`} alt="instagram" className="w-1/2 h-1/2" />
