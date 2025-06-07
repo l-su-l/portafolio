@@ -37,7 +37,7 @@ const DemoComputer = (props) => {
           // receiveShadow
           geometry={nodes['monitor-screen'].geometry}
           material={nodes['monitor-screen'].material}
-          position={[0.127, 1.831, 0.511]}
+          position={[0.127, 1.831, 0.511]} // posicion del del video renderizado en el modelo 3d
           rotation={[1.571, -0.005, 0.031]}
           scale={[0.661, 0.608, 0.401]}>
           <meshBasicMaterial map={txt} toneMapped={false} />

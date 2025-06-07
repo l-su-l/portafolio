@@ -1,26 +1,26 @@
 const Footer = () => {
   return (
-    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5 relative top-[120px]">
-      <div className="text-white-500 flex gap-2">
-        <p>Terms & Conditions</p>
-        <p>|</p>
-        <p>Privacy Policy</p>
+    <div className="pl-1 mx-1 mb-1 flex justify-between items-center flex-wrap text-xs">
+      <div className="text-white-500 flex w-full justify-between items-center">
+        <p>Terms & Conditions | Privacy Policy</p>
+        
+        <div className="flex justify-center border w-[40%] py-1 pl-7">
+
+          <div className="social-icon">
+            <img src={`${import.meta.env.BASE_URL}assets/github.svg`} alt="github" className="w-1/2 h-1/2" />
+          </div>
+          <div className="social-icon">
+            <img src={`${import.meta.env.BASE_URL}assets/download.svg`} alt="gmail" className="w-[35px]" />
+          </div>
+          <div className="social-icon">
+            <img src={`${import.meta.env.BASE_URL}assets/instagram.svg`} alt="instagram" className="w-1/2 h-1/2" />
+          </div>
+
+        </div>
       </div>
 
-      <div className="flex gap-3">
-        <div className="social-icon">
-          <img src={`${import.meta.env.BASE_URL}assets/github.svg`} alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="w-[10%] rounded-full flex items-center justify-center bg-black-300">
-          <img src={`${import.meta.env.BASE_URL}assets/download.svg`} alt="gmail" className="w-[65%]" />
-        </div>
-        <div className="social-icon">
-          <img src={`${import.meta.env.BASE_URL}assets/instagram.svg`} alt="instagram" className="w-1/2 h-1/2" />
-        </div>
-      </div>
-
-      <p className="text-white-500">© 2024 Sebastian A. All rights reserved.</p>
-    </footer>
+      <p className="text-white-500 absolute bottom-[2px]">© 2023 By Sebastian A. All rights reserved.</p>
+    </div>
   );
 };
 

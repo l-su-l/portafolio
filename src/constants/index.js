@@ -54,7 +54,7 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'SafeWorkPlace: La Plataforma para un Entorno Laboral Seguro',
-    desc: 'SafeWorkPlace es un servicio de Software diseñado para prevenir y gestionar el acoso laboral. Su objetivo es ayudar a las empresas a cumplir con la Ley Karin en Chile para un ambiente de trabajo respetuoso. Con interfaces web de denuncias anónimas, análisis proactivo basado en Machine Learning y herramientas de gestión de casos, SafeWorkPlace trata de agiliza la forma de como aplican la ley karin en Chile.',
+    desc: 'Software de servicio web diseñado para prevenir y gestionar el acoso laboral. Su objetivo es ayudar a las empresas a cumplir con la Ley Karin en Chile para un ambiente de trabajo respetuoso. Con interfaces web de denuncias anónimas, clasificacion de denuncias en tiempo real utilizando modelo de NLP y herramientas de gestión de casos, SafeWorkPlace trata de agiliza la forma de denunciar de forma segura y anonima aplicando la ley karin en Chile.',
     subdesc:
       'Desarrollada con React.js, Django, y bases de datos MySQL.',
     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
@@ -74,16 +74,21 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: `${import.meta.env.BASE_URL}assets/tailwindcss.png`,
-      },
-      {
-        id: 3,
         name: 'Django',
         path: `${import.meta.env.BASE_URL}assets/logodjango.png`,
       },
       {
+        id: 3,
+        name: 'Mysql',
+        path: `${import.meta.env.BASE_URL}assets/mysql-logo.png`,
+      },
+      {
         id: 4,
+        name: 'TailwindCSS',
+        path: `${import.meta.env.BASE_URL}assets/tailwindcss.png`,
+      },
+      {
+        id: 5,
         name: 'Threejs',
         path: `${import.meta.env.BASE_URL}assets/logothreejs.png`,
       },
@@ -91,7 +96,7 @@ export const myProjects = [
   },
   {
     title: '•» ᴘᴏʀᴛᴀꜰᴏʟɪᴏ | ꜱᴇʙᴀꜱᴛɪᴀɴ ᴀᴄᴜɴᴀ ᴅᴇꜱᴀʀʀᴏʟʟᴀᴅᴏʀ ꜰᴜʟʟ ꜱᴛᴀᴄᴋ | ʙᴀᴄᴋᴇɴᴅ ᴘʏᴛʜᴏɴ | ʀᴇᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ «•',
-    desc: 'Proyecto desarrollado con React.js Threejs, portafolio interactivo diseñado para mostrar experiencia, habilidades y proyectos especificos.',
+    desc: 'Portafolio interactivo diseñado para mostrar conocimiento en el desarrollo de proyectos especificos.',
     subdesc:
       'Se busca sensación inmersiva con Escena, modelos 3D y animaciones aplicando tecnologías en el desarrollo web. El diseño es completamente responsivo y publico de, dando una visualización óptima en dispositivos',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
@@ -126,6 +131,88 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: '•» App web de gestion de ordenes de trabajo y control del tiempo «•',
+    desc: 'Sistema de control de datos almacenados en la BD, gestion de ordenes de trabajo con control del tiempo en realizar las ordenes de trabajo de cada empleado de SC Informatica',
+    subdesc:
+      '',
+    texture: `${import.meta.env.BASE_URL}textures/project/project3.mp4`,
+    logo: `${import.meta.env.BASE_URL}assets/logopage_v2.png`,
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: `${import.meta.env.BASE_URL}assets/spotlight2.png`,
+    tags: [
+      {
+        id: 1,
+        name: 'Laravel',
+        path: `${import.meta.env.BASE_URL}assets/logolaravel.png`,
+      },
+      {
+        id: 3,
+        name: 'PHP',
+        path: `${import.meta.env.BASE_URL}assets/php.png`,
+      },
+      {
+        id: 2,
+        name: 'Mysql',
+        path: `${import.meta.env.BASE_URL}assets/mysql-logo.png`,
+      },
+      {
+        id: 4,
+        name: 'js',
+        path: `${import.meta.env.BASE_URL}assets/js.png`,
+      },
+      {
+        id: 5,
+        name: 'TailwindCSS',
+        path: `${import.meta.env.BASE_URL}assets/tailwindcss.png`,
+      }
+    ],
+  },
+  {
+    title: '•» Sux – Red Social Ligera «•',
+    desc: 'Plataforma social que permita la comunicacion entre usuarios a través de publicaciones que pueden ser comentadas y mensajes en tiempo real, incorporando funcionalidades de administración, seguridad con JWT y visualización de datos mediante gráficas conectadas a una base de datos externa.',
+    subdesc:
+      '',
+    texture: `${import.meta.env.BASE_URL}textures/project/project4.mp4`,
+    logo: `${import.meta.env.BASE_URL}assets/foro.png`,
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: `${import.meta.env.BASE_URL}assets/spotlight2.png`,
+    tags: [
+      {
+        id: 1,
+        name: 'Laravel',
+        path: `${import.meta.env.BASE_URL}assets/Java-Logo.png`,
+      },
+      {
+        id: 3,
+        name: 'PHP',
+        path: `${import.meta.env.BASE_URL}assets/php.png`,
+      },
+      {
+        id: 2,
+        name: 'Mysql',
+        path: `${import.meta.env.BASE_URL}assets/mysql-logo.png`,
+      },
+      {
+        id: 4,
+        name: 'js',
+        path: `${import.meta.env.BASE_URL}assets/MPandroidChat.png`,
+      },
+      {
+        id: 5,
+        name: 'TailwindCSS',
+        path: `${import.meta.env.BASE_URL}assets/jwt.png`,
+      }
+    ],
+  }
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

@@ -48,10 +48,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center border-b border-neutral-700">
         {/* Título y descripción */}
         <div className="text-neutral-400">
-          <p className="text-xl font-bold cursor-pointer hover:text-white transition-colors">
-            Sebastian Acuña
-          </p>
-          <p className="text-sm">Desarrollador Full Stack | Backend Python | React Developer</p>
+          <img src={`${import.meta.env.BASE_URL}assets/SA.png`} alt="grid-1" className="w-[50px]" />
         </div>
 
         {/* Menú principal */}
@@ -80,7 +77,7 @@ const Navbar = () => {
 
       {/* Menú lateral para pantallas pequeñas */}
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 bg-black bg-opacity-90 backdrop-blur-lg transform ${
+        className={`fixed top-0 right-0 h-full w-[40%] bg-black opacity-50 backdrop-blur-lg transform ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 sm:hidden`}
       >
